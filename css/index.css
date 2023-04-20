@@ -1,0 +1,136 @@
+body {
+    background-color: grey;
+}
+
+.container {
+    max-width: 400px;
+    box-shadow: 0 0 40px 20px;
+    margin: 20vh auto 0 auto;
+    background-color: yellow;
+}
+
+input[type="text"],
+input[type="Password"] {
+    margin: 10px;
+    padding: 2px;
+    width: 200px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    margin: 10px;
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+}
+
+button {
+    margin: 10px;
+    padding: 2px;
+    width: 100px;
+    height: 30px;
+}
+
+#firstPanel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#noDataFound {
+    border: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#noDataFound {
+    display: inline-flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-style: solid;
+    border-width: medium;
+    column-gap: 5px;
+    margin: 80px 80px 0px 80px;
+    display: none;
+}
+
+#noDataFound img {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+#noDataFound .nodatafound-text {
+    margin: 10px;
+    min-width: 50%;
+    font-size: 40px;
+}
+
+#displayResume {
+    border-style: solid;
+    border-width: medium;
+}
+
+#applierName {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#appliedFor {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#userNameNPhotoDetails {
+    background-color: aquamarine;
+    display: inline-flex;
+    align-items: center;
+    width: 100%
+}
+
+#userImage img {
+    margin: 10px;
+}
+
+#userNameNPhotoDetails #userNamedetails {
+    margin: 10px;
+    min-width: 90%;
+    font-size: 40px;
+}
+
+#userDetails {
+    display: inline-flex;
+    width: 100%
+}
+
+#personalDetails {
+    background-color: pink;
+    height: 400px;
+    width: 15%;
+}
+
+#professionalDetails {
+    margin: 10px;
+    width: 85%;
+}
+
+h2 {
+    background-color: grey;
+    margin: 10px;
+}
+
+#mobNo,
+#emailAddress,
+#skills,
+#hobbies,
+#linkedin {
+    text-align: end;
+    margin-right: 10px;
+}
