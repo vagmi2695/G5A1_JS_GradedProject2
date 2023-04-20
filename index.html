@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrer's Portal</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div id="resumePage">
+        <div id="firstPanel">
+            <button name="Previous" id="previousButton">Previous</button>
+            <input type="text" name="searchBox" id="searchBox" placeholder="Enter Job Title" />
+            <button name="Next" id="nextButton">Next</button>
+        </div>
+        <div id="noDataFound">
+            <div class="noDataFound-image">
+                <img src="images/smiley.png">
+            </div>
+            <div class="nodatafound-text">
+                <h1>No such results found</h1>
+            </div>
+        </div>
+        <div id="displayResume">
+            <div id="userNameNPhotoDetails">
+                <div id="userNamedetails">
+                    <div id="applierName">User's Name</div>
+                    <div id="appliedFor">Applied For</div>
+                </div>
+                <div id="userImage">
+                    <img src="images/user.jpg" width="80" height="80">
+                </div>
+            </div>
+            <div id="userDetails">
+                <div id="personalDetails">
+                    <section id="PersonalInformation">
+                        <h2>Personal Information</h2>
+                        <div id="mobNo">MobileNumber</div>
+                        <div id="emailAddress">Email</div>
+                        <div id="linkedin"><a href="#" id="profile">Linked In</a></div>
+                    </section>
+                    <section id="technicalSkills">
+                        <h2>Technical Skills</h2>
+                        <div id="skills"></div>
+                    </section>
+                    <section id="hobby">
+                        <h2>Hobbies</h2>
+                        <div id="hobbies"></div>
+                    </section>
+                </div>
+                <div id="professionalDetails">
+                    <section id="previousCompanyDetail">
+                        <h1>Work experience in previous company</h1>
+                        <div id="companyName" style="margin: 3px;"></div>
+                        <div id="position" style="margin: 3px;"></div>
+                        <div id="startDate" style="margin: 3px;"></div>
+                        <div id="endDate" style="margin: 3px;"></div>
+                        <div id="summary" style="margin: 3px;"></div>
+                    </section>
+
+                    <section id="projectDetails">
+                        <h1>Projects</h1>
+                        <div id="project"></div>
+                    </section>
+
+                    <section id="educationDetails">
+                        <h1>Education</h1>
+                        <ul>
+                            <li>
+                                <div id="ugEducation"></div>
+                            </li>
+                            <li>
+                                <div id="puEducation"></div>
+                            </li>
+                            <li>
+                                <div id="hsEducation"></div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section id="internship">
+                        <h1>Internship</h1>
+                        <ul>
+                            <li>
+                                <div id="internCompanyName"></div>
+                            </li>
+                            <li>
+                                <div id="internPosition"></div>
+                            </li>
+                            <li>
+                                <div id="internStartDate"></div>
+                            </li>
+                            <li>
+                                <div id="internEndDate"></div>
+                            </li>
+                            <li>
+                                <div id="internSummary"></div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section id="achievments">
+                        <h1>Achievments</h1>
+                        <ul id="allAchievments">
+
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <center><br /><br />
+            <input type="text" name="username" id="username" placeholder="Enter Username" required /><br>
+            <input type="password" name="password" id="password" placeholder="Enter Password" required /><br />
+            <label id="InvalidInformation" style="color: red;"></label><br />
+            <input type="submit" name="submit" value="Login" id="loginButton" />
+        </center>
+    </div>
+    <script type="module" src="js/index.js"></script>
+</body>
+
+</html>
